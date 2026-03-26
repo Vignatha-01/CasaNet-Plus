@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>CausaNet+</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Segoe UI', sans-serif;
+            background: linear-gradient(135deg, #0f172a, #020617);
+            color: white;
+        }
+
+        header {
+            padding: 20px;
+            text-align: center;
+            font-size: 28px;
+            font-weight: bold;
+            color: #38bdf8;
+            border-bottom: 1px solid #1e293b;
+        }
+
+        .container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            padding: 30px;
+        }
+
+        .card {
+            background: #1e293b;
+            border-radius: 15px;
+            padding: 20px;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.4);
+            transition: 0.3s;
+        }
+
+        .card:hover {
+            transform: translateY(-5px);
+        }
+
+        h2 {
+            color: #38bdf8;
+        }
+
+        .highlight {
+            color: #22c55e;
+            font-weight: bold;
+        }
+
+        .warning {
+            color: #facc15;
+        }
+
+        .danger {
+            color: #ef4444;
+        }
+
+        footer {
+            text-align: center;
+            padding: 15px;
+            font-size: 14px;
+            color: gray;
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    🚀 CausaNet+ Dashboard
+</header>
+
+<div class="container">
+
+    <div class="card">
+        <h2>🔗 Work Graph</h2>
+        <p>A → B → C</p>
+        <p class="danger">⚠ Bottleneck: B is overloaded</p>
+    </div>
+
+    <div class="card">
+        <h2>🧬 Causal Insight</h2>
+        <p>Delay caused by dependency overload</p>
+        <p class="highlight">✔ Root cause identified</p>
+    </div>
+
+    <div class="card">
+        <h2>⚖️ Decision Reliability</h2>
+        <p>Person A: <span class="warning">90% confident</span></p>
+        <p class="danger">Accuracy: 40%</p>
+    </div>
+
+    <div class="card">
+        <h2>📉 Execution Gap</h2>
+        <p>Planned: 5 days</p>
+        <p>Actual: 9 days</p>
+        <p class="danger">Deviation: +80%</p>
+    </div>
+
+</div>
+
+<footer>
+    CausaNet+ | Verifiable Intelligence Layer
+</footer>
+
+</body>
+</html>
