@@ -1,0 +1,14 @@
+{
+  "users": [
+    {"name": "A", "role": "Manager"},
+    {"name": "B", "role": "Developer"},
+    {"name": "C", "role": "Designer"}
+  ],
+  "tasks": [
+    {"task": "UI Design", "assigned": "C", "depends_on": "B", "status": "delayed"},
+    {"task": "Backend", "assigned": "B", "status": "in-progress"}
+  ],
+  "decisions": [
+    {"person": "A", "confidence": 0.9, "actual_accuracy": 0.4}
+  ]
+}
