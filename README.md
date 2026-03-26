@@ -43,3 +43,6 @@ Measures difference between planned and actual execution.
 ## Future Scope
 - Real-time enterprise integration
 - Advanced AI models for causal reasoning
+- ## Documentation
+- Architecture: docs/architecture.md
+- Future Scope: docs/future.md
