@@ -46,3 +46,22 @@ Measures difference between planned and actual execution.
 - ## Documentation
 - Architecture: docs/architecture.md
 - Future Scope: docs/future.md
+- ## Screenshots
+
+### Dashboard Overview
+![Dashboard](screenshots/dashboard_overview.png)
+
+### Work Graph
+![Work Graph](screenshots/work_graph.png)
+
+### Causal Insight
+![Causal Insight](screenshots/causal_insight.png)
+
+### Decision Reliability
+![Decision Reliability](screenshots/decision_reliability.png)
+
+### Execution Gap
+![Execution Gap](screenshots/execution_gap.png)
+
+### Architecture Diagram
+![Architecture Diagram](screenshots/architecture_diagram.png)
